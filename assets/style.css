@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 .sidenav {
+    height:1000px;  
     width: 120px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     margin-top: 25px;
@@ -19,6 +22,9 @@
     margin-left: 120px;
     margin-right: 100px;
     padding: 0px 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: small;
+    text-align: left;
   }
 
   .ctinfo{
