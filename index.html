@@ -1,50 +1,21 @@
 <DOCTYPE! html>
 <html>
 <head><title>fisik_yum</title>
-<style>
-.sidenav {
-  height: 50%; /* Full-height: remove this if you want "auto" height */
-  width: 120px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  margin-top: 60px;
-  margin-right:120px;
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: rgb(255, 255, 255); /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  color:black;
-}
- a{
-  color: black;
-  padding: 5px 5px 5px 5px;
-}
-.main {
-  margin-left: 120px;
-  margin-right: 100px;
-  padding: 0px 10px;
-  text-align: justify;
-}
-</style>
+<link rel="stylesheet" href="assets/style.css">
 </head>
-<body bgcolor="white"><pre>
-<font color="000000">
-  <div class="sidenav">
-    <h3 align="center">links</h3>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="https://github.com/fisik-yum">Github</a>
-  </div>
+<script src="assets/script.js"></script> 
+<body>
+<!--Page Content starts here-->
 <pre>
 <div class="main">
-  <h1 align="center">fisik_yum's homepage</h1>
+  <h1 align="center"><a href="https://github.com/fisik-yum/">fisik-yum</a>'s homepage</h1>
 <div id="about">
 Hi, this is me. I occasionally create stuff that might be useful. Most of the repos I list on my github profile are for programs that I use very frequently because they make my life easier.
 When I'm not coding, I spend my time listening to music and reading. I'm mostly active on discord at fisik_yum#7560.
 Feel free to drop suggestions for my reading list (btw I like fantasy but I read almost anything).
 </div>
-<div class="projects">
+<div id="projects">
+  <h3>Projects</h3>
 <a href="https://github.com/fisik-yum/kavaca">Kavaca</a> - a discord bot that forwards message to a secondary account.
 <a href="https://github.com/fisik-yum/gocomi">Gocomi</a> - a program that downloads comic strip panels from gocomics.
 <a href="https://github.com/fisik-yum/tuxports">Tuxports</a> - Huge collection of Tux Racer courses ported to Extreme Tux Racer.
@@ -54,7 +25,32 @@ Feel free to drop suggestions for my reading list (btw I like fantasy but I read
 There is absolutely no reason as to why this gif is in static/
 <img src="static/suckitalickita.gif" width="640">
 </div>
+<div id="contact" align="center">
+  <h3>Contact</h3>
+  <a class="ctinfo" href="javascript:void(null);" onclick="toast('fisik_yum#7560')">Discord</a>
+  
+  <a class="ctinfo" href="https://github.com/fisik-yum/">Github</a>
+  
+  <a class="ctinfo" href="https://www.speedrun.com/user/fisik_yum">Speedrun.com</a>
+</div>
+
+
 </pre>
-</font>
-  </body>
+<!--Page Content ends here-->
+
+
+<!--UI stuff below-->
+<pre>
+  <div class="sidenav">
+    <h3 align="center">Navigation</h3>
+    <a href="#about">About</a>
+
+    <a href="#projects">Projects</a>
+
+    <a href="#contact">Contact</a>
+  </div>
+  <div id="clipboard">Copied to clipboard</div>
+</pre>
+
+</body>
 </html>
