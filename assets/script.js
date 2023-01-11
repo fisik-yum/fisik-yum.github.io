@@ -1,4 +1,9 @@
-function toast(ct) {
+var url = window.location.pathname;
+    console.log(url)
+    document.getElementById("headerlink").innerHTML="~/World/fisik"+url;
+    document.getElementById("headerlink").href=url;
+
+    function toast(ct) {
 
     var x = document.getElementById("clipboard");
     x.className = "show";
