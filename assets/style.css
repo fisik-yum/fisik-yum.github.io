@@ -56,6 +56,10 @@ hr {
   font-size: medium;
 }
 
+.description{
+  font-weight: bolder;
+}
+
 #clipboard {
   visibility: hidden;
   min-width: 250px;
