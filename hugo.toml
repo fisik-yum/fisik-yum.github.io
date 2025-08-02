@@ -42,6 +42,11 @@ icon = "fa-solid fa-envelope"
 title = "Email"
 url = "mailto:fisik@buckminsterfullerene.com"
 
+[[params.socialLinks]]
+icon = "fa-brands fa-discord"
+title = "Discord"
+url = "/about/"
+
 [menu]
 
   [[menu.main]]
